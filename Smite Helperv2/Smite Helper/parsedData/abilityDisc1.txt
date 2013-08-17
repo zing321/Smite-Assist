@@ -1,0 +1,39 @@
+Agni summons a cloud of noxious fumes at his ground target location, doing damage every second. Firing any of Agni's abilities into the fumes detonates the gas, stunning all enemies in the radius.
+Anhur erects an obelisk from the ground, blocking all player movement. The surrounding sands slow enemies and increase the damage of Anhur's basic attacks against targets in the sands.
+A plague of locusts bellows forth from Anubis' mouth, smothering all enemies in the area and doing damage every .5s for 3s. Anubis is immune to knockback while channeling.
+Ao Kuang fires a projectile breath attack that hits the first enemy in its path, doing damage and slowing all enemies in the area around the impact.
+Aphrodite blows a kiss to an allied god, making them her soul mate and giving them both increased movement speed.  If it hits an ally, it has no cooldown.  If the kiss hits an enemy god, they are stunned and Aphrodite's soul mate gets jealous, increasing their damage.
+Apollo strums a single cord on his Lyre. It's so beautiful it hurts, and all enemies in a long range line take damage.
+Arachne lays spider eggs that act as wards. Enemies getting too close to the eggs cause them to hatch 2 spiders that attack the nearby enemy, slowing them and doing damage every second.  Damaging the eggs causes 1 spider to hatch instead of 2.
+Chains extend from Ares' shield, doing damage to all enemies in its path.  Hitting a god shackles them to Ares, cripples them, preventing movement abilities, dealing the same damage every second while slowing them and buffing Ares.  While shackled, Ares can fire another chain for free within 2s.
+Artemis places a trap that additionally acts as a ward. Enemy gods coming within 5 feet of her traps activate them, rooting and crippling the enemy god, preventing movement abilities and dealing damage every second for 3s. 
+Athena powers up for a dash. While dashing, Athena will pass through minions and stop and hit the first enemy god she encounters, dealing damage and slowing all she hits. If she hits an enemy, Athena gains one stack of Block (max 3), absorbing the next basic attack from any god that hits her.
+Bacchus takes a drink from his jug, giving him additional buffs.  Bacchus celebrates when he kills an enemy god, giving him 10% on his meter.
+Bakasura leaps to his ground target location, doing damage to all enemies in the area and reducing their damage done.
+Bastet pounces to her target location, damaging enemies within the radius. For 4 seconds after pouncing, you can press the button again to pounce back to your initial location, even while under crowd control.  Bastet also moves 25% faster while in the return pounce state.
+Chang'e flings a crescent moon that hits all units in its arc, dealing damage to all enemies in its path. Her and her allies gain a physical protection buff for a short duration.
+Chronos creates a rift in time, damaging all enemies in the area.
+Cupid fires an arrow of love at the target, causing damage when it hits.  After a short time, the targets heart explodes, dealing the damage again to the target and all enemies within the radius.
+Fenrir leaps forward, dealing damage to all enemies when he lands.  At full runes, the leap stuns the enemies hit.  If the leap hits a god, the cooldown is halved.
+Freya activates a buff that gives her physical lifesteal and makes her basic physical attacks do additional magical damage.
+Guan Yu's tranquil leadership is infectious and, when focused, heals himself and his allies. Healing friendly gods reduces all cooldowns by 2s.
+Hades descends into the ground and erupts from below at his ground location, doing damage to all enemies in the area. If the enemy is Blighted, they are also slowed. Applies Blight.
+He Bo fires a short burst of water from his sleeves, damaging all enemies in front of him.
+DECAY (Dark Stance) - Hel fires a projectile that explodes on contact, doing damage to all enemies in a 15 ft radius. RESTORATION (Light Stance) - Hel fires a projectile that does damage to a single target and heals Hel for a percentage of the damage done.
+Hercules delivers a mighty strike, driving all enemies back and damaging them.   If Hercules is below 50% health, he also stuns them.
+Hun Batz flips through the air, crashing down at his target location, doing damage to all nearby enemies and slowing them.
+Isis flaps her wings, gaining increased movement speed with no backpedal penalty, and sending forth 4 wing gusts in a line, each dealing magical damage to all targets in their path.
+Kali fuels herself with her rage, increasing her physical power and movement speed for a short time.  While active, her basic attacks, Blood Lash and Frenzy also cause her targets to Bleed every .5s for 2s.
+Loki disappears in a puff of smoke. While invisible, he moves faster, is immune to slows and takes 25% less damage. His next basic attack from stealth (or for 2s after) applies a bleed to his target, dealing damage every .5s and reveals Loki.
+Ne Zha throws the Universe Ring, bouncing it to nearby enemies.  Each hit deals damage, applies a stacking physical protection debuff for 3s and slows the enemy for 1s.  Each successful hit also applies a stacking movement speed buff to Ne Zha for 2s.
+Neith fires a shot through the world weave that passes through everything.  The first enemy hit takes damage and is rooted. Successive enemies take 75% of the damage and root duration.  If the Spirit Arrow hits a Broken Weave, the Weave detonates, dealing an additional 100% of the damage and applying the root to all enemies in the area.
+Odin lunges to his target location, doing damage to all nearby enemies.
+Poseidon summons forth a wave that travels in a line, dealing damage and pushing back all enemies in its path.
+Ra summons a moving beam of intense light from the sky, doing damage to anyone caught under the beam.
+Sobek charges forward at a frenzied pace. If Sobek hits an enemy, he does damage and throws the enemy behind Sobek.
+Thor throws Mjolnir forward, doing damage to all enemies in its path. If hit twice, minions will take half damage while gods take double damage from the return. While the hammer is flying, pressing the button again will teleport Thor to his hammer.
+Vamana opens his umbrella in front of him and sprints forward, doing damage to all enemies and knocking them into the air.
+Vulcan blasts a fireball out of his Forge, dealing damage to all enemies in its path, marking the first god that is hit.  The Inferno Cannon prioritizes the marked target and his turrets deal 10% more damage to that god.  The strength of the blast also knocks Vulcan 20ft back.
+When Xbalanque toggles on this ability, his basic attacks deal additional damage.  When the bola hits, it splits into 2 that hit enemies up to 30 feet behind the target for 30% damage (On-hit effects do not apply). Right clicking cancels the toggle.
+Ymir summons a wall of ice out of the ground that blocks player movement.
+Zeus fires a bolt of lightning that arcs between enemies, doing damage and applying a charge on each hit.

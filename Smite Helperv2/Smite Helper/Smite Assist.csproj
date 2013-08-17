@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D2E4CD4C-6F0F-4A96-8D2A-0FAA7E7301B4}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Smite_Helper</RootNamespace>
+    <AssemblyName>Smite Helper</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>Smite_Helper_$(Configuration)_$(Platform).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>Smite_Helper.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <ExpressionBlendVersion>5.0.40218.0</ExpressionBlendVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomToast.cs" />
+    <Compile Include="GlobalData.cs" />
+    <Compile Include="GodViewPage.xaml.cs">
+      <DependentUpon>GodViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurchaseInterface.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StartPage.xaml.cs">
+      <DependentUpon>StartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomTimer.cs" />
+    <Compile Include="TimerPage.xaml.cs">
+      <DependentUpon>TimerPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="100rev2.png" />
+    <Content Include="158rev2.png" />
+    <Content Include="300.png" />
+    <Content Include="336rev2.png" />
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Aegis Amulet.jpg" />
+    <Content Include="images\Agni.jpg" />
+    <Content Include="images\Agni_Card.jpg" />
+    <Content Include="images\Agni_Combustion.jpg" />
+    <Content Include="images\Agni_FlameWave.jpg" />
+    <Content Include="images\Agni_Incinerator.jpg" />
+    <Content Include="images\Agni_NoxiousFumes.jpg" />
+    <Content Include="images\Agni_PathofFlames.jpg" />
+    <Content Include="images\Agni_RainFire.jpg" />
+    <Content Include="images\Agni_Volcanic.jpg" />
+    <Content Include="images\Anhur.jpg" />
+    <Content Include="images\Anhur_Card.jpg" />
+    <Content Include="images\Anhur_DesertFury.jpg" />
+    <Content Include="images\Anhur_Disperse.jpg" />
+    <Content Include="images\Anhur_Enfeeble.jpg" />
+    <Content Include="images\Anhur_Golden.jpg" />
+    <Content Include="images\Anhur_Impale.jpg" />
+    <Content Include="images\Anhur_JungleKing.jpg" />
+    <Content Include="images\Anhur_Olympian.jpg" />
+    <Content Include="images\Anhur_Shiftingsands.jpg" />
+    <Content Include="images\Ankh Of the Bear.jpg" />
+    <Content Include="images\Ankh of the Golem.jpg" />
+    <Content Include="images\Ankh.jpg" />
+    <Content Include="images\Anubis.jpg" />
+    <Content Include="images\Anubis_Card.jpg" />
+    <Content Include="images\Anubis_DeathGaze.jpg" />
+    <Content Include="images\Anubis_GraspingHands.jpg" />
+    <Content Include="images\Anubis_GraveHound.jpg" />
+    <Content Include="images\Anubis_Mummify.jpg" />
+    <Content Include="images\Anubis_NightWalker.jpg" />
+    <Content Include="images\Anubis_PlagueofLocusts.jpg" />
+    <Content Include="images\Anubis_Sorrow.jpg" />
+    <Content Include="images\AoKuang_GracefulWinds.jpg" />
+    <Content Include="images\AoKuang_Slither.jpg" />
+    <Content Include="images\AoKuang_Spirit%27sTempest.jpg" />
+    <Content Include="images\AoKuang_Squall.jpg" />
+    <Content Include="images\AoKuang_Tornadoes.jpg" />
+    <Content Include="images\Ao_Kuang.jpg" />
+    <Content Include="images\Ao_Kuang_Card.jpg" />
+    <Content Include="images\Ao_Kuang_SacredDragon.jpg" />
+    <Content Include="images\Ao_Kuang_Typhoon.jpg" />
+    <Content Include="images\Aphrodite.jpg" />
+    <Content Include="images\Aphrodite_Afro-dite.jpg" />
+    <Content Include="images\Aphrodite_BackOff.jpg" />
+    <Content Include="images\Aphrodite_Card.jpg" />
+    <Content Include="images\Aphrodite_Kiss.jpg" />
+    <Content Include="images\Aphrodite_LoveBirds.jpg" />
+    <Content Include="images\Aphrodite_LovingEmbrace.jpg" />
+    <Content Include="images\Aphrodite_Majestrix.jpg" />
+    <Content Include="images\Aphrodite_UndyingLove.jpg" />
+    <Content Include="images\Apollo.jpg" />
+    <Content Include="images\Apollo_AcrossTheSky.jpg" />
+    <Content Include="images\Apollo_Audacity.jpg" />
+    <Content Include="images\Apollo_Card.jpg" />
+    <Content Include="images\Apollo_Serenade.jpg" />
+    <Content Include="images\Apollo_Slickshot.jpg" />
+    <Content Include="images\Apollo_SoBeautiful.jpg" />
+    <Content Include="images\Apollo_TheMoves.jpg" />
+    <Content Include="images\Arachne.jpg" />
+    <Content Include="images\Arachne_BlackWidow.jpg" />
+    <Content Include="images\Arachne_Broodlings.jpg" />
+    <Content Include="images\Arachne_Card.jpg" />
+    <Content Include="images\Arachne_Cocoon.jpg" />
+    <Content Include="images\Arachne_DrainLife.jpg" />
+    <Content Include="images\Arachne_PoisonClaws.jpg" />
+    <Content Include="images\Arachne_TangledWeb.jpg" />
+    <Content Include="images\Ares.jpg" />
+    <Content Include="images\Ares_BlessedPresence.jpg" />
+    <Content Include="images\Ares_BolsterDefenses.jpg" />
+    <Content Include="images\Ares_Card.jpg" />
+    <Content Include="images\Ares_Destroyer.jpg" />
+    <Content Include="images\Ares_NoEscape.jpg" />
+    <Content Include="images\Ares_SearingFlesh.jpg" />
+    <Content Include="images\Ares_Shackles.jpg" />
+    <Content Include="images\Artemis.jpg" />
+    <Content Include="images\Artemis_CalydonianBoar.jpg" />
+    <Content Include="images\Artemis_Card.jpg" />
+    <Content Include="images\Artemis_Convention2012.jpg" />
+    <Content Include="images\Artemis_Stalker.jpg" />
+    <Content Include="images\Artemis_StillTarget.jpg" />
+    <Content Include="images\Artemis_SuppressTheInsolent.jpg" />
+    <Content Include="images\Artemis_TransgressorsFate.jpg" />
+    <Content Include="images\Artemis_VengefulAssault.jpg" />
+    <Content Include="images\Artemis_Wrangler.jpg" />
+    <Content Include="images\Athena.jpg" />
+    <Content Include="images\Athena_Card.jpg" />
+    <Content Include="images\Athena_Confound.jpg" />
+    <Content Include="images\Athena_DefenderofOlympus.jpg" />
+    <Content Include="images\Athena_HighCounselor.jpg" />
+    <Content Include="images\Athena_PreemptiveStrike.jpg" />
+    <Content Include="images\Athena_Reach.jpg" />
+    <Content Include="images\Athena_ShieldWall.jpg" />
+    <Content Include="images\Bacchus.jpg" />
+    <Content Include="images\Bacchus_Belchofthegods.jpg" />
+    <Content Include="images\Bacchus_BellyFlop.jpg" />
+    <Content Include="images\Bacchus_Card.jpg" />
+    <Content Include="images\Bacchus_Chug.jpg" />
+    <Content Include="images\Bacchus_Drunk-o-meter.jpg" />
+    <Content Include="images\Bacchus_FatherChrishmash.jpg" />
+    <Content Include="images\Bacchus_Golden.jpg" />
+    <Content Include="images\Bacchus_Intoxicate.jpg" />
+    <Content Include="images\Bacchus_RegalReveler.jpg" />
+    <Content Include="images\Bakasura.jpg" />
+    <Content Include="images\Bakasura_Butcher.jpg" />
+    <Content Include="images\Bakasura_Butcherblades.jpg" />
+    <Content Include="images\Bakasura_Card.jpg" />
+    <Content Include="images\Bakasura_DeathMachine.jpg" />
+    <Content Include="images\Bakasura_Eatminion.jpg" />
+    <Content Include="images\Bakasura_FeasterBunny.jpg" />
+    <Content Include="images\Bakasura_InsatiableHunger.jpg" />
+    <Content Include="images\Bakasura_Regurgitate.jpg" />
+    <Content Include="images\Bakasura_TakeDown.jpg" />
+    <Content Include="images\Bancroft%27s Talon.jpg" />
+    <Content Include="images\Bastet.jpg" />
+    <Content Include="images\Bastet_Card.jpg" />
+    <Content Include="images\Bastet_CatCall.jpg" />
+    <Content Include="images\Bastet_Dominatrix.jpg" />
+    <Content Include="images\Bastet_Ninelives.jpg" />
+    <Content Include="images\Bastet_NineTails.jpg" />
+    <Content Include="images\Bastet_Pounce.jpg" />
+    <Content Include="images\Bastet_RazorClaws.jpg" />
+    <Content Include="images\Blessed Ankh.jpg" />
+    <Content Include="images\blink.jpg" />
+    <Content Include="images\Book of Thoth.jpg" />
+    <Content Include="images\Boots of Celerity.jpg" />
+    <Content Include="images\Boots.jpg" />
+    <Content Include="images\Bracer Of Replenishment.jpg" />
+    <Content Include="images\Brawler%27s Beat Stick.jpg" />
+    <Content Include="images\Breastplate of Valor.jpg" />
+    <Content Include="images\Bulwark of Hope.jpg" />
+    <Content Include="images\Bumba%27s Mask.jpg" />
+    <Content Include="images\Chang%27E.jpg" />
+    <Content Include="images\Chang%27E_BrightMoon.jpg" />
+    <Content Include="images\Chang%27E_Card.jpg" />
+    <Content Include="images\Chang%27E_CrescentMoonDance.jpg" />
+    <Content Include="images\Chang%27E_endlessDance.jpg" />
+    <Content Include="images\Chang%27E_FullMoonDance.jpg" />
+    <Content Include="images\Chang%27E_JadeRabbit.jpg" />
+    <Content Include="images\Chang%27E_LoveDance.jpg" />
+    <Content Include="images\Chang%27E_MoonFlowerDance.jpg" />
+    <Content Include="images\Chang%27E_MoonlitWaltz.jpg" />
+    <Content Include="images\Chang%27E_WaxingMoon.jpg" />
+    <Content Include="images\Chronos%27 Pendant.jpg" />
+    <Content Include="images\Chronos.jpg" />
+    <Content Include="images\Chronos_Accelerate.jpg" />
+    <Content Include="images\Chronos_Card.jpg" />
+    <Content Include="images\Chronos_Rewind.jpg" />
+    <Content Include="images\Chronos_StopTime.jpg" />
+    <Content Include="images\Chronos_TimeLord.jpg" />
+    <Content Include="images\Chronos_TimeRift.jpg" />
+    <Content Include="images\Chronos_WheelOfTime.jpg" />
+    <Content Include="images\Circlet of Focus.jpg" />
+    <Content Include="images\Combat Blink.jpg" />
+    <Content Include="images\Creeping Curse.jpg" />
+    <Content Include="images\Cupid.jpg" />
+    <Content Include="images\Cupid_Card.jpg" />
+    <Content Include="images\Cupid_FieldsofLove.jpg" />
+    <Content Include="images\Cupid_Flutter.jpg" />
+    <Content Include="images\Cupid_ForestNymph.jpg" />
+    <Content Include="images\Cupid_Golden.jpg" />
+    <Content Include="images\Cupid_HeartBomb.jpg" />
+    <Content Include="images\Cupid_Lil%27Devil.jpg" />
+    <Content Include="images\Cupid_Loverboy.jpg" />
+    <Content Include="images\Cupid_LoveStruck.jpg" />
+    <Content Include="images\Cupid_Sharethelove.jpg" />
+    <Content Include="images\Death%27s Toll.jpg" />
+    <Content Include="images\Deathbringer.jpg" />
+    <Content Include="images\Demonic Grip.jpg" />
+    <Content Include="images\Devourer%27s Gloves.jpg" />
+    <Content Include="images\Divine Ruin.jpg" />
+    <Content Include="images\Doom Orb.jpg" />
+    <Content Include="images\Elixir of Defense.jpg" />
+    <Content Include="images\Elixir of Power.jpg" />
+    <Content Include="images\Ethereal Staff.jpg" />
+    <Content Include="images\Eye Of Providence.jpg" />
+    <Content Include="images\Eye of Retaliation.jpg" />
+    <Content Include="images\Fatalis.jpg" />
+    <Content Include="images\Fenrir.jpg" />
+    <Content Include="images\Fenrir_Brutalize.jpg" />
+    <Content Include="images\Fenrir_Card.jpg" />
+    <Content Include="images\Fenrir_FrostFang.jpg" />
+    <Content Include="images\Fenrir_Ragnarok.jpg" />
+    <Content Include="images\Fenrir_SeethingHowl.jpg" />
+    <Content Include="images\Fenrir_UnboundRunes.jpg" />
+    <Content Include="images\Fenrir_Unchained.jpg" />
+    <Content Include="images\Fist of the Gods.jpg" />
+    <Content Include="images\Focused Void Stone.jpg" />
+    <Content Include="images\Focused VoidBlade.jpg" />
+    <Content Include="images\Freya.jpg" />
+    <Content Include="images\Freya_Banish.jpg" />
+    <Content Include="images\Freya_Brisingamen%27sBlessing.jpg" />
+    <Content Include="images\Freya_Card.jpg" />
+    <Content Include="images\Freya_FrostMaiden.jpg" />
+    <Content Include="images\Freya_Irradiate.jpg" />
+    <Content Include="images\Freya_NorthernLights.jpg" />
+    <Content Include="images\Freya_Pulse.jpg" />
+    <Content Include="images\Freya_Valkyrie%27sDiscretion.jpg" />
+    <Content Include="images\Frostbound Hammer.jpg" />
+    <Content Include="images\Gauntlet of Thebes.jpg" />
+    <Content Include="images\Gem of Binding.jpg" />
+    <Content Include="images\Gem of Isolation.jpg" />
+    <Content Include="images\Girdle of Inner Power.jpg" />
+    <Content Include="images\Girdle of Might.jpg" />
+    <Content Include="images\Golden Bow.jpg" />
+    <Content Include="images\Greaves.jpg" />
+    <Content Include="images\GuanYu_FortifiedDefense.jpg" />
+    <Content Include="images\GuanYu_Tactician%27sAdvantage.jpg" />
+    <Content Include="images\GuanYu_TaoluAssault.jpg" />
+    <Content Include="images\GuanYu_TranquilGift.jpg" />
+    <Content Include="images\GuanYu_Warrior%27swill.jpg" />
+    <Content Include="images\Guan_yu.jpg" />
+    <Content Include="images\guan_Yu_Card.jpg" />
+    <Content Include="images\Guan_Yu_MasterGuanFu.jpg" />
+    <Content Include="images\Guan_Yu_UnstoppableBlade.jpg" />
+    <Content Include="images\Hades.jpg" />
+    <Content Include="images\Hades_Blight.jpg" />
+    <Content Include="images\Hades_Bloodfire.jpg" />
+    <Content Include="images\Hades_Card.jpg" />
+    <Content Include="images\Hades_DeathFromBelow.jpg" />
+    <Content Include="images\Hades_DevourSouls.jpg" />
+    <Content Include="images\Hades_PillarofAgony.jpg" />
+    <Content Include="images\Hades_ShroudofDarkness.jpg" />
+    <Content Include="images\Hades_SoulTaker.jpg" />
+    <Content Include="images\Hand of the gods.jpg" />
+    <Content Include="images\Healing Potion.jpg" />
+    <Content Include="images\Heartseeker.jpg" />
+    <Content Include="images\Heaven%27s Will.jpg" />
+    <Content Include="images\Heavenly Agility.jpg" />
+    <Content Include="images\HeBo_CrushingWave.jpg" />
+    <Content Include="images\HeBo_FloodWaters.jpg" />
+    <Content Include="images\HeBo_Steadyflow.jpg" />
+    <Content Include="images\HeBo_WaterCannon.jpg" />
+    <Content Include="images\HeBo_WaterSpout.jpg" />
+    <Content Include="images\Hel.jpg" />
+    <Content Include="images\Hel_Card.jpg" />
+    <Content Include="images\Hel_Dark-LightStance.jpg" />
+    <Content Include="images\Hel_Decay%28Restoration%29.jpg" />
+    <Content Include="images\Hel_Hinder%28Cleanse%29.jpg" />
+    <Content Include="images\Hel_JingleHel.jpg" />
+    <Content Include="images\Hel_Repulse%28Inspire%29.jpg" />
+    <Content Include="images\Hel_SwitchStances.jpg" />
+    <Content Include="images\Hercules.jpg" />
+    <Content Include="images\Hercules_Card.jpg" />
+    <Content Include="images\Hercules_DrivingStrike.jpg" />
+    <Content Include="images\Hercules_Earthbreaker.jpg" />
+    <Content Include="images\Hercules_Excavate.jpg" />
+    <Content Include="images\Hercules_GrandSlam.jpg" />
+    <Content Include="images\Hercules_LionofOlympus.jpg" />
+    <Content Include="images\Hercules_MitigateWounds.jpg" />
+    <Content Include="images\Hercules_StrengthFromPain.jpg" />
+    <Content Include="images\He_Bo.jpg" />
+    <Content Include="images\He_Bo_Card.jpg" />
+    <Content Include="images\He_Bo_Cascade.jpg" />
+    <Content Include="images\He_Bo_Golden.jpg" />
+    <Content Include="images\He_Bo_HeBro.jpg" />
+    <Content Include="images\Hide of Leviathan.jpg" />
+    <Content Include="images\Hide of the Nemean Lion.jpg" />
+    <Content Include="images\HunBatz_FearNoEvil.jpg" />
+    <Content Include="images\HunBatz_InfusedStrikes.jpg" />
+    <Content Include="images\HunBatz_OverhandSmash.jpg" />
+    <Content Include="images\HunBatz_SacredMonkey.jpg" />
+    <Content Include="images\HunBatz_Somersault.jpg" />
+    <Content Include="images\Hun_Batz.jpg" />
+    <Content Include="images\Hun_Batz_Card.jpg" />
+    <Content Include="images\Hun_Batz_RedDemon.jpg" />
+    <Content Include="images\Hun_Batz_ShaolinMonk-ey.jpg" />
+    <Content Include="images\Hydra%27s Lament.jpg" />
+    <Content Include="images\Isis.jpg" />
+    <Content Include="images\Isis_Card.jpg" />
+    <Content Include="images\Isis_CircleOfProtection.jpg" />
+    <Content Include="images\Isis_DispelMagic.jpg" />
+    <Content Include="images\Isis_FuneralRites.jpg" />
+    <Content Include="images\Isis_GuardianEternal.jpg" />
+    <Content Include="images\Isis_SpiritBall.jpg" />
+    <Content Include="images\Isis_WingGust.jpg" />
+    <Content Include="images\Jotunn%27s Wrath.jpg" />
+    <Content Include="images\Kali.jpg" />
+    <Content Include="images\Kali_BloodLash.jpg" />
+    <Content Include="images\Kali_Card.jpg" />
+    <Content Include="images\Kali_Convention2013.jpg" />
+    <Content Include="images\Kali_DemonSlayer.jpg" />
+    <Content Include="images\Kali_Enrage.jpg" />
+    <Content Include="images\Kali_Frenzy.jpg" />
+    <Content Include="images\Kali_KaliRage.jpg" />
+    <Content Include="images\Kali_SiphonBlood.jpg" />
+    <Content Include="images\Loki.jpg" />
+    <Content Include="images\Loki_AimedStrike.jpg" />
+    <Content Include="images\Loki_Assassinate.jpg" />
+    <Content Include="images\Loki_Behindyou.jpg" />
+    <Content Include="images\Loki_Card.jpg" />
+    <Content Include="images\Loki_Decoy.jpg" />
+    <Content Include="images\Loki_Golden.jpg" />
+    <Content Include="images\Loki_Ssslither.jpg" />
+    <Content Include="images\Loki_Vanish.jpg" />
+    <Content Include="images\Magi%27s Blessing.jpg" />
+    <Content Include="images\Mana Potion.jpg" />
+    <Content Include="images\Mark of the Vanguard.jpg" />
+    <Content Include="images\Meditation.jpg" />
+    <Content Include="images\Midas%27 Boots.jpg" />
+    <Content Include="images\Midgardian Mail.jpg" />
+    <Content Include="images\Motivate.jpg" />
+    <Content Include="images\Mystical Mark.jpg" />
+    <Content Include="images\Neith.jpg" />
+    <Content Include="images\Neith_BackFlip.jpg" />
+    <Content Include="images\Neith_BrokenWeave.jpg" />
+    <Content Include="images\Neith_Card.jpg" />
+    <Content Include="images\Neith_Golden.jpg" />
+    <Content Include="images\Neith_Mischievous.jpg" />
+    <Content Include="images\Neith_Ms.Diagnosis.jpg" />
+    <Content Include="images\Neith_SpiritArrow.jpg" />
+    <Content Include="images\Neith_Unravel.jpg" />
+    <Content Include="images\Neith_WorldWeaver.jpg" />
+    <Content Include="images\NeZha_ArmillarySash.jpg" />
+    <Content Include="images\NeZha_ChildofTheLotus.jpg" />
+    <Content Include="images\NeZha_FlamingSpear.jpg" />
+    <Content Include="images\NeZha_UniverseRingToss.jpg" />
+    <Content Include="images\NeZha_WindFireWheels.jpg" />
+    <Content Include="images\Ne_Zha.jpg" />
+    <Content Include="images\Ne_Zha_BlueLotus.jpg" />
+    <Content Include="images\Ne_zha_Card.jpg" />
+    <Content Include="images\Ninja Tabi.jpg" />
+    <Content Include="images\Obsidian Shard.jpg" />
+    <Content Include="images\Odin.jpg" />
+    <Content Include="images\Odin_BirdsofWisdom.jpg" />
+    <Content Include="images\Odin_Card.jpg" />
+    <Content Include="images\Odin_Gungnir%27sMight.jpg" />
+    <Content Include="images\Odin_Lunge.jpg" />
+    <Content Include="images\Odin_MountainMan.jpg" />
+    <Content Include="images\Odin_Odin%27sShout.jpg" />
+    <Content Include="images\Odin_RingofSpears.jpg" />
+    <Content Include="images\Odin_TheHuntsman.jpg" />
+    <Content Include="images\Plated Greaves.jpg" />
+    <Content Include="images\Polynomicon.jpg" />
+    <Content Include="images\Portal.jpg" />
+    <Content Include="images\Poseidon.jpg" />
+    <Content Include="images\Poseidon_Card.jpg" />
+    <Content Include="images\Poseidon_ChangingTides.jpg" />
+    <Content Include="images\Poseidon_Golden.jpg" />
+    <Content Include="images\Poseidon_ReleaseTheKraken.jpg" />
+    <Content Include="images\Poseidon_TheEarthShaker.jpg" />
+    <Content Include="images\Poseidon_TidalSurge.jpg" />
+    <Content Include="images\Poseidon_Trident.jpg" />
+    <Content Include="images\Poseidon_Whirlpool.jpg" />
+    <Content Include="images\Potion of Magical Might.jpg" />
+    <Content Include="images\Potion of Physical Might.jpg" />
+    <Content Include="images\Purification Beads.jpg" />
+    <Content Include="images\Pythagorem%27s Piece.jpg" />
+    <Content Include="images\Qin%27s Blades.jpg" />
+    <Content Include="images\Ra.jpg" />
+    <Content Include="images\Rage.jpg" />
+    <Content Include="images\Ra_Alienware.jpg" />
+    <Content Include="images\Ra_Card.jpg" />
+    <Content Include="images\Ra_CelestialBeam.jpg" />
+    <Content Include="images\Ra_DivineLight.jpg" />
+    <Content Include="images\Ra_SearingPain.jpg" />
+    <Content Include="images\Ra_Silve-ra-do.jpg" />
+    <Content Include="images\Ra_SolarBlessing.jpg" />
+    <Content Include="images\Ra_SolarEclipse.jpg" />
+    <Content Include="images\Ra_SolarSentinel.jpg" />
+    <Content Include="images\Ra_SpeedofLight.jpg" />
+    <Content Include="images\Reinforced Greaves.jpg" />
+    <Content Include="images\Restoration Shard.jpg" />
+    <Content Include="images\reya_Pulse.jpg" />
+    <Content Include="images\Rod of Tahuti.jpg" />
+    <Content Include="images\Rod of Will.jpg" />
+    <Content Include="images\Runic Shield.jpg" />
+    <Content Include="images\Salvation.jpg" />
+    <Content Include="images\Sentry Ward.jpg" />
+    <Content Include="images\Shard.jpg" />
+    <Content Include="images\Shell of Absorption.jpg" />
+    <Content Include="images\Shell.jpg" />
+    <Content Include="images\Shield of Regrowth.jpg" />
+    <Content Include="images\Shield.jpg" />
+    <Content Include="images\Shielded Recall.jpg" />
+    <Content Include="images\Shielded Teleport.jpg" />
+    <Content Include="images\Shoes of Focus.jpg" />
+    <Content Include="images\Shoes of The Magi.jpg" />
+    <Content Include="images\Shoes.jpg" />
+    <Content Include="images\Sobek.jpg" />
+    <Content Include="images\Sobek_Blessingofthenile.jpg" />
+    <Content Include="images\Sobek_Card.jpg" />
+    <Content Include="images\Sobek_ChargePrey.jpg" />
+    <Content Include="images\Sobek_DeathDealer.jpg" />
+    <Content Include="images\Sobek_HighSeas.jpg" />
+    <Content Include="images\Sobek_LurkingintheWaters.jpg" />
+    <Content Include="images\Sobek_SickeningStrike.jpg" />
+    <Content Include="images\Sobek_TailWhip.jpg" />
+    <Content Include="images\Soul Eater.jpg" />
+    <Content Include="images\Soul Reaver.jpg" />
+    <Content Include="images\Sovereignty.jpg" />
+    <Content Include="images\Spear of the Magus.jpg" />
+    <Content Include="images\Spiked Shell.jpg" />
+    <Content Include="images\Sprint.jpg" />
+    <Content Include="images\Staff of Mana.jpg" />
+    <Content Include="images\Static Shard.jpg" />
+    <Content Include="images\Stone of Gaia.jpg" />
+    <Content Include="images\Tabi.jpg" />
+    <Content Include="images\Teleport.jpg" />
+    <Content Include="images\The Executioner.jpg" />
+    <Content Include="images\Thor.jpg" />
+    <Content Include="images\Thor_Anvilofdawn.jpg" />
+    <Content Include="images\Thor_BerserkerBarrage.jpg" />
+    <Content Include="images\Thor_BloodEagle.jpg" />
+    <Content Include="images\Thor_Card.jpg" />
+    <Content Include="images\Thor_HeavyMetal.jpg" />
+    <Content Include="images\Thor_Mjolnir%27sAttunement.jpg" />
+    <Content Include="images\Thor_RighteousHammer.jpg" />
+    <Content Include="images\Thor_TectonicRift.jpg" />
+    <Content Include="images\Thor_Warrior%27sMadness.jpg" />
+    <Content Include="images\Titan%27s Bane.jpg" />
+    <Content Include="images\Transcendence.jpg" />
+    <Content Include="images\Tyr.jpg" />
+    <Content Include="images\Tyr_Card.jpg" />
+    <Content Include="images\Tyr_ChangeStance.jpg" />
+    <Content Include="images\Tyr_DarkJudgement.jpg" />
+    <Content Include="images\Tyr_Fearless.jpg" />
+    <Content Include="images\Tyr_Lawbringer.jpg" />
+    <Content Include="images\Tyr_Powercleave.jpg" />
+    <Content Include="images\Tyr_Unyielding.jpg" />
+    <Content Include="images\Vamana.jpg" />
+    <Content Include="images\Vamana_ArmoredUmbrella.jpg" />
+    <Content Include="images\Vamana_Card.jpg" />
+    <Content Include="images\Vamana_ClearthePath.jpg" />
+    <Content Include="images\Vamana_ColossalFury.jpg" />
+    <Content Include="images\Vamana_DivineProtector.jpg" />
+    <Content Include="images\Vamana_lil%27mana.jpg" />
+    <Content Include="images\Vamana_Sleepinggiant.jpg" />
+    <Content Include="images\Vamana_Umbrellarang.jpg" />
+    <Content Include="images\Vampiric Shroud.jpg" />
+    <Content Include="images\Void Stone.jpg" />
+    <Content Include="images\Voidblade.jpg" />
+    <Content Include="images\Vulcan.jpg" />
+    <Content Include="images\Vulcan_Backfire.jpg" />
+    <Content Include="images\Vulcan_Card.jpg" />
+    <Content Include="images\Vulcan_Forge.jpg" />
+    <Content Include="images\Vulcan_Golden.jpg" />
+    <Content Include="images\Vulcan_InfernoCannon.jpg" />
+    <Content Include="images\Vulcan_IronSmith.jpg" />
+    <Content Include="images\Vulcan_Sentry.jpg" />
+    <Content Include="images\Vulcan_ThumperXVI.jpg" />
+    <Content Include="images\Vulcan_VolcanicOverdrive.jpg" />
+    <Content Include="images\Wall of Absolution.jpg" />
+    <Content Include="images\Ward.jpg" />
+    <Content Include="images\Warlock%27s Sash.jpg" />
+    <Content Include="images\Warrior Tabi.jpg" />
+    <Content Include="images\Watcher%27s Gift.jpg" />
+    <Content Include="images\Winged Wand.jpg" />
+    <Content Include="images\Witch Stone.jpg" />
+    <Content Include="images\Xbalanque.jpg" />
+    <Content Include="images\Xbalanque_BranchingBola.jpg" />
+    <Content Include="images\Xbalanque_Card.jpg" />
+    <Content Include="images\Xbalanque_DarkestOfNights.jpg" />
+    <Content Include="images\Xbalanque_DeadOfNight.jpg" />
+    <Content Include="images\Xbalanque_JungleBeast.jpg" />
+    <Content Include="images\Xbalanque_PoisonDarts.jpg" />
+    <Content Include="images\Xbalanque_RisingJaguar.jpg" />
+    <Content Include="images\Ymir.jpg" />
+    <Content Include="images\Ymir_CacoDemon.jpg" />
+    <Content Include="images\Ymir_Card.jpg" />
+    <Content Include="images\Ymir_Digi-mir9000.jpg" />
+    <Content Include="images\Ymir_Frostbite.jpg" />
+    <Content Include="images\Ymir_FrostBreath.jpg" />
+    <Content Include="images\Ymir_GlacialStrike.jpg" />
+    <Content Include="images\Ymir_IceWall.jpg" />
+    <Content Include="images\Ymir_ObsidianShard.jpg" />
+    <Content Include="images\Ymir_ShardsofIce.jpg" />
+    <Content Include="images\Ymir_TwitchYmir.jpg" />
+    <Content Include="images\Zeus.jpg" />
+    <Content Include="images\Zeus_AegisShield.jpg" />
+    <Content Include="images\Zeus_Almighty.jpg" />
+    <Content Include="images\Zeus_Card.jpg" />
+    <Content Include="images\Zeus_ChainLightning.jpg" />
+    <Content Include="images\Zeus_DetonateCharge.jpg" />
+    <Content Include="images\Zeus_Golden.jpg" />
+    <Content Include="images\Zeus_LightningStorm.jpg" />
+    <Content Include="images\Zeus_OverCharge.jpg" />
+    <Content Include="images\Zeus_StormBringer.jpg" />
+    <Content Include="parsedData\abilityDisc1.txt" />
+    <Content Include="parsedData\abilityDisc2.txt" />
+    <Content Include="parsedData\abilityDisc3.txt" />
+    <Content Include="parsedData\abilityDisc4.txt" />
+    <Content Include="parsedData\abilityDiscPassive.txt" />
+    <Content Include="parsedData\abilityMisc1.txt" />
+    <Content Include="parsedData\abilityMisc2.txt" />
+    <Content Include="parsedData\abilityMisc3.txt" />
+    <Content Include="parsedData\abilityMisc4.txt" />
+    <Content Include="parsedData\abilityMiscPassive.txt" />
+    <Content Include="parsedData\abilityName1.txt" />
+    <Content Include="parsedData\abilityName2.txt" />
+    <Content Include="parsedData\abilityName3.txt" />
+    <Content Include="parsedData\abilityName4.txt" />
+    <Content Include="parsedData\abilityNamePassive.txt" />
+    <Content Include="parsedData\attackSpeed.txt" />
+    <Content Include="parsedData\attackSpeedPerLevel.txt" />
+    <Content Include="parsedData\capabilities.txt" />
+    <Content Include="parsedData\cons.txt" />
+    <Content Include="parsedData\free.txt" />
+    <Content Include="parsedData\gods.txt" />
+    <Content Include="parsedData\health.txt" />
+    <Content Include="parsedData\healthPerLevel.txt" />
+    <Content Include="parsedData\hp5.txt" />
+    <Content Include="parsedData\hp5l.txt" />
+    <Content Include="parsedData\lore.txt" />
+    <Content Include="parsedData\mana.txt" />
+    <Content Include="parsedData\manaPerLevel.txt" />
+    <Content Include="parsedData\movement.txt" />
+    <Content Include="parsedData\mp5.txt" />
+    <Content Include="parsedData\mp5l.txt" />
+    <Content Include="parsedData\mProt.txt" />
+    <Content Include="parsedData\mProtl.txt" />
+    <Content Include="parsedData\pantheon.txt" />
+    <Content Include="parsedData\pPowr.txt" />
+    <Content Include="parsedData\pPowrl.txt" />
+    <Content Include="parsedData\pProt.txt" />
+    <Content Include="parsedData\pProtl.txt" />
+    <Content Include="parsedData\pros.txt" />
+    <Content Include="parsedData\roles.txt" />
+    <Content Include="parsedData\title.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Advertising.Mobile, Version=6.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="microsoft.advertising.mobile.ui, Version=6.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Expression.Drawing" />
+    <Reference Include="Microsoft.Phone.Controls" />
+    <Reference Include="Microsoft.Phone.Controls.Maps, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Parse.1.2.6\lib\wp8\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Parse">
+      <HintPath>..\packages\Parse.1.2.6\lib\wp8\Parse.dll</HintPath>
+    </Reference>
+    <Reference Include="Parse.Phone">
+      <HintPath>..\packages\Parse.1.2.6\lib\wp8\Parse.Phone.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="GodViewPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StartPage.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TimerPage.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SmiteAssistPortable\SmiteAssistPortable.csproj">
+      <Project>{4E6735E8-3949-4CDE-879D-A315B13B828D}</Project>
+      <Name>SmiteAssistPortable</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

@@ -1,0 +1,39 @@
+Agni blazes a path forward in a quick dash, leaving flames trailing behind him. Any enemies passing through the flames catch fire and burn for damage every .5s for 2s. Ignites Noxious Fumes.
+Anhur leaps to his ground target location, doing damage and knocking back all enemies in the radius where he lands.
+Anubis calls for help from the underworld as hands penetrate the ground and claw at his enemies, doing damage and slowing every .5s for 2s.
+Ao Kuang summons a tornado at his ground target location. A smaller tornado branches off onto any enemies that come within the radius, doing damage every .5s for 3s and is refreshed if enemies stay within the radius.
+Aphrodite calls forth a flock of beautiful doves that fly forward in the area in front of her.  The doves circle around all enemies in the path, damaging enemies every .5s for 3s.  Aphrodite and her soul mate also receive healing when cast.
+Apollo runs forward and slides on his knees, dealing damage, knocking aside all enemies and adding a stack of Audacity for each enemy hit.  At the end of the slide, the movement speed is decreased for enemies and increased for himself and allies.
+Arachne spins an entangling web at her ground location, slowing her enemies within the radius.    Enemies inside the web are also crippled.
+Flames pour forth from Ares' shield, engulfing enemies in a cone in front of him for damage every .5s for 4s.  Ares is immune to knockback for the duration.
+Artemis fires a volley into a ground target, suppressing all of her enemies. Enemies caught within the volley are damaged and are slowed.
+Athena summons a group of Athenian warriors who do damage upon arrival, and after 2s strike for additional damage.
+Bacchus lets out an obnoxiously loud belch, doing damage every .5s for 2s. If he is Tipsy, enemies are stunned for 1s and their healing is debuffed.
+Bakasura passively gains physical power. When activated, he gains additional true damage on each strike for the duration.
+Bastet lashes her weapon, unleashing a projectile that detonates on her target, dealing damage and slowing the enemies in the area.
+Chang'e twirls, scattering flowers around her, and healing herself and all nearby allies.  Chang'e heals herself an additional 50% for each god that she heals.  Her Moonflower Dance also reduces the healing of all nearby enemies.
+Shooting forward spinning gears of time, any enemies hit by Chronos' attack are slowed to a stop, taking damage on the initial hit and again when they are stunned.
+Cupid flutters quickly forward, leaving a trail behind him that increases all allies movement speed. Cupid also gains attack speed for a short time after fluttering!
+Fenrir pounces to his ground target location.  If there was an enemy in the radius, he strikes them 4 times, dealing damage with each strike while being immune to knockups.  At full runes, each strike deals 75% damage to nearby enemies.
+At her ground target location, Freya banishes her enemies into the air for a short time.  The enemies can't be hit or take action while in the air.
+Guan Yu spins his blade in a controlled but furious display, slicing enemies for damage every .4s for 4s.  Each hit debuffs the enemies' protections while buffing Guan Yu the same amount.  Guan Yu is immune to knockback for the duration.
+Hades devours the souls of his enemies, dealing damage in a radius around him. If the enemy is Blighted, the enemy explodes dealing damage to nearby enemies and healing your allies. Consumes Blight.
+He Bo funnels water into the ground, continuing to control it to burst out of the ground with tremendous force at the location he chooses, dealing damage while knocking them into the air and slowing them.
+REPULSE (Dark Stance) - A burst of dark matter erupts from Hel's disk, damaging all nearby enemies. INSPIRE (Light Stance) - A burst of white matter soothes all nearby allies pain, healing them.
+When Hercules activates this ability, he gains health every second over the next 4 seconds.  A percentage of the damage taken during this time is returned to him as additional healing over the following 10 seconds.
+Hun Batz commands a monkey through the air that pounces on enemy targets, doing damage on each pounce, hitting each god only once.  If the last target is an enemy god, Hun Batz teleports to that target.
+Isis silences enemies at her target location. Enemies hit also lose a portion of their magical protections and are slowed for a duration. Allies affected by Isis' Funeral Rites aura gain the missing protections during this time.
+Kali saps enemies of their blood, causing damage to all enemies in the area while healing herself for each enemy hit, up to 3.  Kali heals an additional 20% from any targets hit that were affected by her Bleed.
+Upon activation, Loki's next basic attack does additional damage with a short time. The enemy hit is also slowed.
+Ne Zha throws out his Armillary Sash hitting the first enemy god in its path.  The target is stunned as Ne Zha yanks himself toward the target, dealing a powerful blow to all enemies in the area when he arrives.
+Neith back flips through the air, creating a Broken Weave as she leaps while damaging and slowing enemies in the area in front of her.
+This power, while used passively, provides physical protection and some HP5. Upon activation, he does a sweeping melee attack that does damage and slows all enemies around him.
+Poseidon summons a whirlpool at his ground target location that cripples targets, preventing movement abilities, and pulls targets toward the center dealing magical damage every .5s for 3s. Reduces Poseidon's Tide by 25% when cast.
+Ra summons a pillar of blessed light.  Allies inside the blessing are healed every second and gain a magical and physical power buff.  Enemies are damaged every second and incur a magical and physical power debuff.
+Sobek does an axe attack that damages all enemies in front of him and lowers their healing received.  In addition, Sobek heals for each enemy hit, up to 3.
+Thor spins his hammer around him, doing damage every .4s.  Thor is immune to knockup and slows for the duration.
+Vamana spins an umbrella out in front of him, hitting everyone in its path for damage and slowing your enemies' attack and movement speeds.  After reaching its destination, the umbrella returns back to Vamana, hitting everyone in its path again.
+Vulcan constructs a Thumper XVI that deals damage and slows enemies every second.  The Thumper XVI lasts until destroyed or another is placed.  This inherits Vulcan's penetrations but does not apply on-hit effects.
+Xbalanque rushes forward and then jumps into the air.  While in the air, he fires darts at all nearby enemies, dealing damage to all in the area.  Any enemies that were poisoned by Xbalanque take additional damage.
+Ymir uses his breath to freeze enemies in blocks of ice, doing damage and stunning them.  Applies Frostbite.
+Zeus detonates any charges that have accumulated on enemies, doing damage, multiplied by 1/2/3 depending on the number of charges. Targets with 3 charges at the time of detonation are stunned.

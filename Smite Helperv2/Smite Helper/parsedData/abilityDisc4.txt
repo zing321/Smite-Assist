@@ -1,0 +1,39 @@
+Every 20 seconds, Agni gains a flaming halo that can be expended to summon a giant meteor at his ground target location. He can summon 1 every .8 seconds. Ignites Noxious Fumes.
+Summoning the fury of the desert, Anhur hunkers down and throws empowered spears that pass through everything, doing damage to all enemies in their path.  He is immune to crowd control for the duration.
+Anubis focuses all of his energy into a piercing gaze, doing damage to all enemies in the path, every 0.3 seconds for 3 seconds.
+Ao Kuang summons the spirit of one of his fallen allies to breathe down destruction onto his enemies in a path in front of him, doing damage and knocking all of the enemies to the side.
+Aphrodite pledges undying love to herself and her Soul Mate.  While this is active, her and her Soul Mate are invulnerable to all damage for a short duration.  All crowd control effects are also removed when activated.
+Apollo rides his chariot across the sky, choosing when to land, dealing damage every .2s for .8s and knocking back enemies when he lands.
+Arachne fires a web projectile towards her enemies.  If the web hits an enemy god, it wraps them tightly doing damage and stunning them as Arachne pulls them to her.
+Ares throws chains out to all enemy gods in an area around him.  All enemies hit by the chains are pulled to Ares after 2.5s, taking damage and are stunned plus additional time for each enemy god hit by the ability.
+Artemis summons the great Calydonian Boar to wreak havoc on her enemies, doing damage to the nearest enemy god and stunning them and itself. The boar continues to charge other gods for its lifetime. Artemis is also immune to crowd control and moves faster for 3s.
+Athena picks a single allied god anywhere in the world, and launches herself up into the air, landing next to that god 4.2 seconds later. During that 4.2 seconds, the allied god mitigates 50% of the damage it's taking. Enemies nearby when Athena lands take damage.
+Bacchus smashes his jug of wine on the ground, intoxicating all nearby enemies and doing damage. If he is Smashed, Bacchus also gains a physical power buff because of his anger over his lost wine!
+Bakasura exposes his head, regurgitating all of the minions consumed by his Eat Minion ability at his ground target location that slows enemy players.  Bakasura's basic attacks become cone attacks for the duration.
+Bastet summons 3 cats that attack nearby targets, slowing and damaging them.  Sensing the smell of blood, the cats will attack bleeding enemies first.
+Chang'e's Waxing Moon dance is captivating, with this dance dealing damage and stunning enemies in front of her.  Each subsequent god that is stunned is stunned for longer than the previous one.
+Chronos travels through time to where he was 8 seconds ago, gaining health and mana back to the values of that time.  All of his cooldowns are instantly reset as well.
+Cupid fires arrows of love at his ground target location slowing enemies in the area and crippling them, preventing movement abilities. The arrows grow and explode, dealing damage and mesmerizing enemies. Any damage done breaks the effect. 
+Upon Ragnarok, Fenrir grows massive in size, becoming immune to cc while moving faster.  Fenrir bites enemy gods, dealing physical damage and carrying them away.  Biting a cc immune target deals the damage but ends his ultimate.  At full runes, his protections double.
+Freya uses her Cloak of Feathers to fly above the battlefield where she fires down blasts of magical damage up to 4 times while flying.  Freya can't be hit when at full ascension and can right click to cancel it early.
+Guan Yu attacks 3 times. Enemies take damage and are slowed. Enemies hit a 2nd time take 150% damage and are silenced. Enemies hit a 3rd time take 200% damage and are stunned. Guan Yu is immune to crowd control for the duration.
+Hades calls to all enemy souls nearby, pulling them closer to him over time, doing damage every .5s for 4s. If the enemy is Blighted, their protections are reduced.
+He Bo transforms into a wave and crashes forward, damaging all enemies in his path.
+Dark Stance - Hel's abilities cause damage and she gains magical power.  Light Stance - Hel's abilities heal and support her allies and she gains MP5.
+Hercules rips a huge boulder from the ground. Throwing the boulder does damage and knocks back all enemies where the boulder lands. The boulder continues rolling, doing the same damage to all enemies in its path. Subsequent hits on the same enemy do 50% less damage per hit.
+Hun Batz summons a totem from the ground to ward off all evil.  Any enemy caught within the radius is feared directly away from the totem and takes damage every .25s.
+Isis plants her staff at her target location for 10s. Allies within its radius take less damage. Any damage dealt within the radius charges up the staff. If Isis activates the staff again, it explodes, dealing damage to enemies inside and healing allies.
+Kali spins around feverishly attacking all enemies around her every .5s, clearing and ignoring all crowd control abilities on herself for the duration.
+Upon activation, Loki teleports to his ground target location. If an enemy god is within the radius, Loki will backstab that target doing damage and stunning them.
+Ne Zha dashes forward. If he hits an enemy god, he knocks it skyward for 4s, unleashing a combo (successfully timed clicks during the combo result in critical strikes), then smashing back to Earth, dealing additional damage to enemies in the radius as he flips back to his starting location.
+Neith charges up and fires an arrow across the world, seeking its target through obstacles.  Enemy gods take damage and are stunned where Broken Weaves that are hit will apply the same effects to everyone in the area.  The arrow can be fired quicker for diminished results.
+Odin summons a wall of spears, blocking all normal movement.  Odin gains protections, physical power and immunity to all crowd control while inside the ring.  Pressing the button again will bring down the ring.
+Poseidon releases the Kraken, damaging and slowing targets in its radius. Enemies in the center of the effect when it spawns take additional damage and are stunned and bounced into the air.
+Ra calls on the power of the sun to decimate his foes in an extreme blast of heat in front of him, doing damage to all enemies unlucky enough to find themselves in the path.
+Sobek submerges himself, where he regens mana, is immune to crowd control and he slows all enemies. When Sobek emerges, he damages all enemies in the radius. Cancelling the ability decreases the damage.
+After a short buildup, Thor leaps into the air. While in the air, Thor can target a great distance away to come crashing down in the area, dealing damage and stunning all enemies in the radius.
+Vamana grows to an enormous giant.  While Vamana is enraged, he is immune to crowd control, gains protections, physical power, massive regeneration and his basic attacks now damage all nearby enemies.  You can right click to cancel his giant form early.
+When Volcanic Overdrive is activated, Vulcan gains movement speed and protections for a short time.  All of Vulcan's structures fire faster and gain massive regeneration.  The Inferno Cannon also fires in a 360 radius and auto targets gods while under the effects of Volcanic Overdrive.
+Xbalanque shrouds enemies in darkness for 3s.  During this time, Xbalanque's basic attack range and his movement speed are increased.  At the end of the darkness, any enemy gods moving at the time are stunned.
+Ymir begins to freeze the air around him, causing shards of ice to grow on his back and slowing enemies. After a 3s channel, Ymir erupts out of his frozen state, causing shards of ice to do damage to all enemies in his range. Applies Frostbite.
+Zeus conjures a Lightning Storm, with lightning striking enemies in the area every second. Applies a charge.

@@ -1,0 +1,38 @@
+Agni summons a wave of fire in front of him that scorches all enemies in its path.  Ignites Noxious Fumes.
+Anhur hurls his spear with great might.  If the spear hits a god, they take damage and are knocked back.  Gods knocked back into a wall are stunned.  The spear passes through minions, doing damage to them as well.
+Anubis fires a bandage projectile, mummifying and stunning his target.
+Ao Kuang channels the wind, allowing him to move faster. Additionally, Ao Kuang is immune to slows for 1s when activated.
+Agitated by all the attention, Aphrodite commands enemies to get away from her, doing damage around her and knocking them back. If Aphrodite has a soul mate, they get agitated instead, and the damage originates on them, dealing the same damage and slowing.
+Apollo uses his amazing voice to mesmerize all nearby enemies and bolster himself with additional protections.  Any damage done breaks the effect.
+Arachne pounces on her melee target, silencing and damaging them while healing every .5s. Right clicking or being disabled (stun, fear or silence) will knock Arachne off.
+Ares strengthens the defenses of himself and all nearby allies, granting protections and reducing crowd control durations. For each shackled enemy, the protection buffs are increased.
+Artemis attacks at a furious pace, increasing her attack speed significantly.
+Athena releases a shockwave of power from her shield, taunting enemy gods, and forcing them to fight or chase her.
+Bacchus jumps into the air and, not so gracefully, comes slamming to the ground belly first, knocking all enemies into the air and dealing damage. If he is Tipsy, all enemies are also slowed after they land.
+Bakasura grabs a minion and devours it, healing himself and gaining a protections buff. Buff wielding minions must be at 33% health to be consumed. Up to 6 minions are stored for Regurgitate.
+Bastet swipes at her enemies, causing them to bleed for damage every second for the duration.
+Chronos accelerates himself over time, allowing him to move faster initially and gain speed over time. While active, his attack speed is increased and he is not affected by the attacking movement speed debuff. This ability also stops the Wheel of Time.
+Cupid places 3 floating hearts at his ground target location that heal himself or allied gods when picked up. Cupid regenerates mana for each heart that is picked up by an ally.
+Fenrir rears back and howls, inspiring himself with a physical power and lifesteal buff.  At full runes, the buff is increased by 50%.
+Freya activates a buff gives her magical lifesteal and makes her basic attacks ranged, dealing additional magical damage and slowing the target and all nearby enemies. The area effect and slow is lost when Irradiate is active.
+Guan Yu charges forward, his Green Dragon Crescent Blade extended in front of him.  After passing through the area, enemies are damaged and slowed.  Hitting enemy gods lowers all cooldowns by 2s.
+Hades silences all enemies in a cone in front of him. If the enemy is Blighted, they are also feared. Consumes Blight.
+A river of water bursts forward from He Bo's sleeves, causing enemies to move slower while He Bo and his allies move faster while in the river.
+HINDER (Dark Stance) - Hel debuffs all enemies at her ground target, reducing their magical protection and slowing them for a short time. CLEANSE (Light Stance) - Hel buffs all allies at her ground target, removing all crowd control abilities instantly and protecting them from future ones for a short time.
+Hercules smashes the ground, sending a shockwave forward that does damage to all enemies in the path. Enemies at the end of the shockwave are thrown into the air towards Hercules.
+Hun Batz smashes his staff to the ground in front of him, doing damage to all enemies.
+Isis sends forth a ball of spirit energy. As the ball travels, it gains in power up to 1.5x at max range. At any time, Isis can activate the ability to detonate the ball, dealing magical damage and stunning enemies within 10 ft, scaling in duration up to 1.5s at max range.
+Kali strikes out at all enemies in a cone in front of her, dealing damage to them all.
+Loki spawns a decoy version of himself that taunts all nearby enemy minions. After a short time, the decoy explodes dealing damage to all enemies in the radius.
+Ne Zha empowers himself with fighting spirit, igniting his spear for increased Attack Speed and Critical Strike Chance for a short duration.
+Neith neatly unravels the world weaves, damaging all enemies in the target area, reducing their attack speed, and healing Neith for each enemy hit, up to 3. Any Broken Weaves in the area are removed, healing Neith an additional amount.
+Odin gives a commanding roar, rallying his allies. Odin and his allies gain an attack speed buff for a short time.
+Poseidon activates his Trident, granting Move speed and making his basic attacks fire 2 additional shots in a spread for 6s. The shots deal magical damage plus 20% of Poseidon's Magical Power. All shots increase Poseidon's Tide on successful hit.
+Light starts to emanate from Ra, stacking a slow every .3s on enemies near him. After 2s, the light detonates, doing damage and increasing the slow duration. Any enemies facing Ra at the time of the explosion are also blinded.
+Sobek whips around in a circle, knocking enemies back and doing damage.
+Thor slams his hammer on the ground, causing a fissure to appear in front of him, stunning enemies and blocking movement.
+Vamana infuses his umbrella with his armor, reinforcing it while he strikes forth, doing damage to all enemies in a cone.
+Vulcan constructs an Inferno Cannon that shoots fireballs in a cone that deal damage to the target every second. The Inferno Cannon lasts until destroyed or another is placed. This inherits Vulcan's penetrations but does not apply on-hit effects.
+Xbalanque shoots 10 darts in a cone in front of him, dealing damage with each one.  An enemy can be hit by 3 darts, with the other 2 doing 30% damage.  Enemies hit are poisoned, taking additional damage every .5s and are slowed.
+Ymir smashes his club, doing damage to all enemies in front of him and slowing them. Applies Frostbite.
+Zeus harnesses his lightning defensively, granting himself additional protections, slow immunity and increasing his movement speed. While the shield is active, basic attacks from enemy players have a percentage of the damage reflected back as magical damage and have a charge applied.

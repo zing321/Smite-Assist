@@ -1,0 +1,39 @@
+After hitting with 4 basic attacks, Agni will gain a buff. On the next cast of Flame Wave or Rain Fire, all enemies hit by those abilities will be additionally set ablaze, taking damage every .5s for 3s.
+Anhur's spear attacks reduce the enemy targets physical power for 3 seconds.
+All of Anubis' abilities steal physical and magical protection from the target and he gains increased scaling to his item-based magical lifesteal.  In addition, Sorrow grants Anubis an additional 30% reduction to all crowd control durations (does not stack with Resolve).
+Increases magical power by 5% of maximum mana.
+Gaining Aphrodite's favor is a blessing in that 30% of all mana gained by Aphrodite is granted to her soul mate.
+After 10 successful basic attacks, Apollo gains Audacity, attacking with both hands and increasing his attack speed by 100% for the next 5 attacks (hit or miss) he makes.
+Arachne applies poison on every physical attack that hits. The poison ticks every .5s for 3s.
+Each completed aura item that Ares' owns grants him 30 additional magical power.
+Artemis gains a critical strike chance buff on each successful hit.
+After using any ability, Athena's next basic attack is a ranged attack, hitting all enemies it passes through, and dealing additional magical damage.
+Bacchus loves the drink and as Bacchus drinks from his jug, he becomes more intoxicated, gaining buffs when he gets Tipsy and Smashed.
+Bakasura's attack and movement speed temporarily increases for each enemy that he kills.
+Bastet has a reduced respawn time for 9 respawns.
+Chang'e can purchase or sell items from anywhere and her Jade Rabbit companion will fetch them. When the rabbit reaches the store then returns, the transaction completes. Only one item can be purchased or sold in this way at a time. Chang'e also gains +25% movement speed with no backpedal penalty when using her dances.
+The wheel of time is always spinning and for Chronos, it is no different. Depending on where the wheel is when activating Accelerate, it provides a different benefit to Chronos.
+Every hit with a basic attack gives Cupid a stack that increases the damage and healing of his abilities.  At 10 stacks, Heart Bomb and Fields of Love will also stun.
+Fenrir gains efficiency as he attacks.  Every hit from a basic attack activates 1 rune, up to a max of 5.  Each of Fenrir's abilities gain an additional benefit when used at maximum runes and the runes are consumed.  Enemy gods that die near Fenrir will fully activate all of his runes.
+Freya's necklace converts a percentage of her magical power to physical power, allowing her basic attacks to gain in strength as her magical strength grows.
+Guan Yu gains protections when he is near friendly or enemy map structures.
+Hades' normal staff attacks apply a debuff to the enemy, called Blight. This debuff stays on the target and can be refreshed. If an enemy is afflicted by Blight, each of Hades' other powers have an additional effect.
+Each time He Bo uses an ability, he gains the Steady Flow buff which increases his magical power. The timer refreshes when another ability is used.
+Hel is able to switch stances between Light and Dark.
+As Hercules takes damage, he gains physical power based on a percentage of his missing health.
+Using an ability gives Hun Batz's next basic attack within the next 5 seconds additional physical damage. The effect can only apply once every 2 seconds.
+Isis shares additional HP5 and MP5 with nearby allies. For every player death she witnesses, her aura gains an additional stack (max 10). Stacks reset on death. Isis' basic attacks also deal 35 magical damage plus 25% of her magical power, and utilize a three swing chain, with the final hit having increased swing time and damage in a small AoE.
+Kali starts with lifesteal.  When Kali falls below 25% health, she gets Enraged, gaining additional lifesteal for a short time.  Can only occur once a minute.
+Loki deals more damage from his basic attacks when hitting enemies from behind. His basic attacks also utilize a five swing progressive chain.
+When Ne Zha dies, his indomitable spirit is reborn from a Lotus at his location, healing nearby allies every second and increasing their protections. Ne Zha's basic attacks also utilize a four swing chain with escalating damage and swing time, hitting all enemies in front of him on the final blow.
+A Broken Weave appears at the last location that each enemy god dies.  The Broken Weaves give her abilities secondary effects when used on the Broken Weaves.  These weaves last for 1 minute.
+Odin's ravens scout an increased radius around himself, increasing  his minimap vision radius and giving visibility to enemies within that area.
+Poseidon's Movement speed increases and his abilities do additional damage as his Tide Level increases. Successful basic attack hits increase his Tide, and using abilities decreases it.
+Every time Ra uses an ability, his movement speed is increased.
+Sobek's basic attacks that hit an enemy grant him protections for a short time.
+Thor gains physical power for each enemy god within 30 feet of him.
+When Vamana is not in Colossal form, taking damage from gods causes the cooldown to decrease.  When Vamana is in Colossal form, taking damage from gods increases the duration.  Additionally, a percentage of Vamana's Physical Protection is converted to Physical Power.
+Vulcan transfers a percentage of his protections and health to his turrets.  In addition, when Vulcan is within 30 ft of his own deployables they regen a percentage of their health every second because of their proximity to the Forge.
+Any enemy gods that Xbalanque kills increases his physical power permanently.
+All of Ymir's abilities that affect enemies apply a debuff to the enemy called Frostbite. All of Ymir's basic melee strikes against a target afflicted by Frostbite do 50% more damage.
+In hand lightning bolt attacks against enemies will apply a charge.  Basic attacks against targets with charges deal increased damage.
