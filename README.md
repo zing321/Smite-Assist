@@ -1,5 +1,8 @@
-SmiteAssist
-===========
+#SmiteAssist
+**THIS APP IS MY 2ND APP**  
+The code is bad and I have removed it from the store. I am currently making a v3. The repository will be updated when complete.
+
+##Description
 
 Wiki/Tools app for windows phone and windows 8
 
